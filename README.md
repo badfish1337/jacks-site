@@ -31,7 +31,9 @@ Also accept user input though body-parser libraries, parse and return details re
 
 newsletter-signup: web application (HTML, CSS, Bootstrap, Javascript, Express, Body Parser, HTTPS, Node.js, Heroku, Git)
 A newsletter signup page connected to Mailchimp's API. Enter your first name, last name, and email to be added to my mailing list!
+Visit heroku hosted version here: https://codeguide-newsletter-signup.herokuapp.com/
 Explores more dependencies, using Git to push commits to Heroku servers, and the Mailchimp API.
+
 
 
 
