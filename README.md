@@ -3,7 +3,7 @@
 All projects I work on while taking London App Brewery's Web Development Bootcamp taught by Angela Yu.
 Each project is described below along with key takeaways
 
-main: static website (HTML)
+jack-bio: static website (HTML)
 A biography through the eyes of my dog, Jack.
 Explores the basics of html.
 
