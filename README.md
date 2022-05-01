@@ -34,8 +34,12 @@ A newsletter signup page connected to Mailchimp's API. Enter your first name, la
 Visit heroku hosted version here: https://codeguide-newsletter-signup.herokuapp.com/
 Explores more dependencies, using Git to push commits to Heroku servers, and the Mailchimp API.
 
-
-
+todo: web application (HTML, CSS, Javascript, Express, Body Parser, Node.js, Nodemon, EJS)
+Can be locally hosted on port 3000. Using a terminal with nodemon, opening this website's root directory (home page) will display a todo list with
+today's date. Items can be added to the list and the HTML updates automatically.
+Visiting the /work page, another todo list is presented with similar functionality.
+Explores previous concepts adding in EJS templating and layouts, express custom module creation, and exporting/using inputs and modules dynamically
+across multiple pages.
 
 
 
