@@ -12,8 +12,8 @@ app.get("/", function(req, res) {
 app.post("/", function(req, res) {
 
     const query = req.body.cityName;
-    // reno lat/long lat=39.635784&lon=-119.911346 can be used instead of "q="
-    const apikey = "89b1017138d8e3b6adb4487281f603ad";
+    // lat/long lat=####&lon=#### can be used instead of "q="
+    const apikey = {{APIKEY}};
     const unit = "imperial";
     const url = "https://api.openweathermap.org/data/2.5/weather?appid=" + apikey +"&q=" + query + "&units=" + unit;
 
@@ -33,14 +33,6 @@ https.get(url, function(response) {
     });
 });
 });
-
-
-
-
-
-
-
-
 
 app.listen(3000, function() {
     console.log("Server is running on port 3000.");
