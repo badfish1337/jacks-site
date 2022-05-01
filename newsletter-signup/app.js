@@ -37,7 +37,7 @@ app.post("/", function(req, res) {
 
     const options = {
         method: "POST",
-        auth: "codeguide:52cac90e28cb53ad1c5214233d6a6a5e-us18"
+        auth: "codeguide:{{APIKEY}}"
     }
 
     const request = https.request(url, options, function(response) {
