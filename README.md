@@ -1,7 +1,7 @@
 # web-development-bootcamp
 
 All projects I work on while taking London App Brewery's Web Development Bootcamp taught by Angela Yu.
-Each branch contains a different project and are described below:
+Each project is described below along with key takeaways
 
 main: static website (HTML)
 A biography through the eyes of my dog, Jack.
